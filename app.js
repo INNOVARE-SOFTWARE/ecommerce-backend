@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const app = express();
-const port = 3000;
+const port = 3001;
 const mongodb = "mongodb://localhost:27017/nodejs-db"
 var cors = require('cors');
 
