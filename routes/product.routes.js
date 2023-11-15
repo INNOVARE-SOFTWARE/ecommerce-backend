@@ -37,7 +37,7 @@ const authenticationToken = require('../middleware/authenticationToken')
  */
 router.get('/products', productController.getAllProducts)
 
-router.post('/products', authenticationToken, productController.createProduct)
+router.post('/products', productController.createProduct)
 router.put('/products/:id', authenticationToken, productController.updateProduct)
 router.delete('/products/:id', authenticationToken, productController.deleteProduct)
 
